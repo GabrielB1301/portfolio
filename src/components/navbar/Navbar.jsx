@@ -3,7 +3,7 @@ import Themes from "./Themes";
 export default function Navbar({ onMenuOpen }) {
   const items = ["home", "about", "projects", "contact"];
   return (
-    <div className="w-full backdrop-blur-md">
+    <div className="fixed top-0 w-full backdrop-blur-md">
       <div className="mx-4 border-b border-slate-300/10">
         <nav className="max-w-screen-xl mx-auto flex items-center justify-between py-4 max-h-14 text-slate-100">
           <span className="font-semibold text-xl">logo.dev</span>

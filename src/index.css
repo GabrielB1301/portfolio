@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-image {
+  @apply rounded-full bg-[url('hero.jpg')] bg-center bg-cover animate-hero-bounce;
+}
